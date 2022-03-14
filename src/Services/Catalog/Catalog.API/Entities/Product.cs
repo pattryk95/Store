@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Catalog.API.Entities
+namespace Catalog.API
 {
     public class Product
     {
@@ -15,6 +15,6 @@ namespace Catalog.API.Entities
         public string Summary { get; set; }
         public string Description { get; set; }
         public string ImageFile { get; set; }
-        public string Price { get; set; }
+        public decimal Price { get; set; }
     }
 }
