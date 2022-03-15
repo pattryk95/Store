@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-namespace Catalog.API.Repositories
+namespace Catalog.API
 {
     public class ProductRepository : IProductRepository
     {
